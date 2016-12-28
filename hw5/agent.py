@@ -16,7 +16,7 @@ class argument(object):
         self.observation_steps  = 50000
         self.learning_rate  = 0.00025
         self.target_model_update_freq = 10000
-        self.model = "./model-13720000"
+        self.model = "./model-13990000"
 
 class Agent(object):
     def __init__(self, sess, min_action_set):
